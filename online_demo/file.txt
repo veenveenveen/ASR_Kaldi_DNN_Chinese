@@ -1,0 +1,2 @@
+use "./run.sh > result.txt" save result to txt
+
