@@ -1,0 +1,5 @@
+nnet-am-fix exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/20.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/20.mdl 
+LOG (nnet-am-fix[5.3.76~1-26df3]:FixNnet():nnet-fix.cc:101) For layer 2, decreased parameters for 0 indexes, and increased them for 0 out of a total of 256
+LOG (nnet-am-fix[5.3.76~1-26df3]:FixNnet():nnet-fix.cc:101) For layer 4, decreased parameters for 2 indexes, and increased them for 0 out of a total of 256
+LOG (nnet-am-fix[5.3.76~1-26df3]:FixNnet():nnet-fix.cc:101) For layer 6, decreased parameters for 24 indexes, and increased them for 0 out of a total of 256
+LOG (nnet-am-fix[5.3.76~1-26df3]:main():nnet-am-fix.cc:81) Copied neural net from exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/20.mdl to exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/20.mdl

@@ -1,0 +1,5 @@
+# cat exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/decode/scoring/18.tra | utils/int2sym.pl -f 2- exp_FG/tri_8_2000/graph/words.txt | sed s:\<UNK\>::g | compute-wer --text --mode=present ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/decode/scoring/test_filt.txt ark,p:- >& exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/decode/wer_18 
+# Started at Fri Mar 30 11:12:01 CST 2018
+#
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 30 11:12:01 CST 2018, elapsed time 0 seconds

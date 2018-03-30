@@ -1,0 +1,49 @@
+!SIL sil
+泵 b eng4
+闭 b i4
+不 b u4
+窗 ch uang1
+窗帘 ch uang1 l ian2
+打 d a3
+打开 d a3 k ai1
+灯 d eng1
+掉 d iao4
+多 d uo1
+二 er4
+阀 f a2
+阀门 f a2 m en2
+谷 g u3
+关 g uan1
+关闭 g uan1 b i4
+关掉 g uan1 d iao4
+核 h e2
+核桃 h e2 t ao2
+黑 h ei1
+黑谷 h ei1 g u3
+红 h ong2
+红枣 h ong2 z ao3
+花 h ua1
+花生 h ua1 sh eng1
+加 j ia1
+加糖 j ia1 t ang2
+开 k ai1
+开启 k ai1 q i3
+帘 l ian2
+门 m en2
+奶 n ai3
+牛 n iu2
+牛奶 n iu2 n ai3
+启 q i3
+桥 q iao2
+三 s an1
+少 sh ao3
+生 sh eng1
+四 si4
+糖 t ang2
+五 wu3
+箱 x iang1
+要 y ao4
+银 y in2
+银桥 y in2 q iao2
+一 yi1
+枣 z ao3

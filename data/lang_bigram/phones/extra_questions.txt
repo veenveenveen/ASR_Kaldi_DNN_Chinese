@@ -1,0 +1,9 @@
+a2_B a3_B ai1_B ai3_B an1_B ang2_B ao2_B ao3_B ao4_B b_B ch_B d_B e2_B ei1_B en2_B eng1_B eng4_B er4_B f_B g_B h_B i3_B i4_B ia1_B ian2_B iang1_B iao4_B iao2_B in2_B iu2_B j_B k_B l_B m_B n_B ong2_B q_B s_B sh_B si4_B t_B u3_B u4_B ua1_B uan1_B uang1_B uo1_B wu3_B x_B y_B yi1_B z_B 
+a2_E a3_E ai1_E ai3_E an1_E ang2_E ao2_E ao3_E ao4_E b_E ch_E d_E e2_E ei1_E en2_E eng1_E eng4_E er4_E f_E g_E h_E i3_E i4_E ia1_E ian2_E iang1_E iao4_E iao2_E in2_E iu2_E j_E k_E l_E m_E n_E ong2_E q_E s_E sh_E si4_E t_E u3_E u4_E ua1_E uan1_E uang1_E uo1_E wu3_E x_E y_E yi1_E z_E 
+a2_I a3_I ai1_I ai3_I an1_I ang2_I ao2_I ao3_I ao4_I b_I ch_I d_I e2_I ei1_I en2_I eng1_I eng4_I er4_I f_I g_I h_I i3_I i4_I ia1_I ian2_I iang1_I iao4_I iao2_I in2_I iu2_I j_I k_I l_I m_I n_I ong2_I q_I s_I sh_I si4_I t_I u3_I u4_I ua1_I uan1_I uang1_I uo1_I wu3_I x_I y_I yi1_I z_I 
+a2_S a3_S ai1_S ai3_S an1_S ang2_S ao2_S ao3_S ao4_S b_S ch_S d_S e2_S ei1_S en2_S eng1_S eng4_S er4_S f_S g_S h_S i3_S i4_S ia1_S ian2_S iang1_S iao4_S iao2_S in2_S iu2_S j_S k_S l_S m_S n_S ong2_S q_S s_S sh_S si4_S t_S u3_S u4_S ua1_S uan1_S uang1_S uo1_S wu3_S x_S y_S yi1_S z_S 
+sil 
+sil_B 
+sil_E 
+sil_I 
+sil_S 

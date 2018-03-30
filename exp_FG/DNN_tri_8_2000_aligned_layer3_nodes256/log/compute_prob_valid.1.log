@@ -1,0 +1,8 @@
+# nnet-compute-prob exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/1.mdl ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/valid_diagnostic.egs 
+# Started at Fri Mar 30 11:05:26 CST 2018
+#
+nnet-compute-prob exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/1.mdl ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/valid_diagnostic.egs 
+LOG (nnet-compute-prob[5.3.76~1-26df3]:main():nnet-compute-prob.cc:91) Saw 4000 examples, average probability is -3.05214 and accuracy is 0.29725 with total weight 4000
+-3.05214
+# Accounting: time=2 threads=1
+# Ended (code 0) at Fri Mar 30 11:05:28 CST 2018, elapsed time 2 seconds

@@ -1,0 +1,9 @@
+# nnet-am-init exp_FG/tri_8_2000_ali/tree data/lang_bigram/topo "nnet-init exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/nnet.config -|" exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/0.mdl 
+# Started at Fri Mar 30 11:05:15 CST 2018
+#
+nnet-am-init exp_FG/tri_8_2000_ali/tree data/lang_bigram/topo 'nnet-init exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/nnet.config -|' exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/0.mdl 
+nnet-init exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/nnet.config - 
+LOG (nnet-init[5.3.76~1-26df3]:main():nnet-init.cc:69) Initialized raw neural net and wrote it to -
+LOG (nnet-am-init[5.3.76~1-26df3]:main():nnet-am-init.cc:102) Initialized neural net and wrote it to exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/0.mdl
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 30 11:05:15 CST 2018, elapsed time 0 seconds

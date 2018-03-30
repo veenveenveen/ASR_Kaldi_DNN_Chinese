@@ -1,0 +1,13 @@
+# nnet-get-egs --left-context=4 --right-context=4 "ark,s,cs:utils/filter_scp.pl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/valid_uttlist data/train/feats.scp | apply-cmvn  --utt2spk=ark:data/train/utt2spk scp:data/train/cmvn.scp scp:- ark:- |" "ark,s,cs:gunzip -c exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/ali_special.gz | ali-to-pdf exp_FG/tri_8_2000_ali/final.mdl ark:- ark:- | ali-to-post ark:- ark:- |" ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/valid_all.egs 
+# Started at Fri Mar 30 11:05:04 CST 2018
+#
+nnet-get-egs --left-context=4 --right-context=4 'ark,s,cs:utils/filter_scp.pl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/valid_uttlist data/train/feats.scp | apply-cmvn  --utt2spk=ark:data/train/utt2spk scp:data/train/cmvn.scp scp:- ark:- |' 'ark,s,cs:gunzip -c exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/ali_special.gz | ali-to-pdf exp_FG/tri_8_2000_ali/final.mdl ark:- ark:- | ali-to-post ark:- ark:- |' ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/valid_all.egs 
+apply-cmvn --utt2spk=ark:data/train/utt2spk scp:data/train/cmvn.scp scp:- ark:- 
+ali-to-post ark:- ark:- 
+ali-to-pdf exp_FG/tri_8_2000_ali/final.mdl ark:- ark:- 
+LOG (ali-to-pdf[5.3.76~1-26df3]:main():ali-to-pdf.cc:68) Converted 558 alignments to pdf sequences.
+LOG (ali-to-post[5.3.76~1-26df3]:main():ali-to-post.cc:73) Converted 558 alignments.
+LOG (apply-cmvn[5.3.76~1-26df3]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 300 utterances, errors on 0
+LOG (nnet-get-egs[5.3.76~1-26df3]:main():nnet-get-egs.cc:174) Finished generating examples, successfully processed 300 feature files, wrote 84167 examples,  with 84167 egs in total; 0 files had errors.
+# Accounting: time=5 threads=1
+# Ended (code 0) at Fri Mar 30 11:05:09 CST 2018, elapsed time 5 seconds

@@ -1,0 +1,29 @@
+# nnet-latgen-faster --minimize=false --max-active=7000 --min-active=200 --beam=15.0 --lattice-beam=8.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp_FG/tri_8_2000/graph/words.txt exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/final.mdl exp_FG/tri_8_2000/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split18/1/utt2spk scp:data/test/split18/1/cmvn.scp scp:data/test/split18/1/feats.scp ark:- |" "ark:|gzip -c > exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/decode/lat.1.gz" 
+# Started at Fri Mar 30 11:11:39 CST 2018
+#
+nnet-latgen-faster --minimize=false --max-active=7000 --min-active=200 --beam=15.0 --lattice-beam=8.0 --acoustic-scale=0.1 --allow-partial=true --word-symbol-table=exp_FG/tri_8_2000/graph/words.txt exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/final.mdl exp_FG/tri_8_2000/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split18/1/utt2spk scp:data/test/split18/1/cmvn.scp scp:data/test/split18/1/feats.scp ark:- |' 'ark:|gzip -c > exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/decode/lat.1.gz' 
+apply-cmvn --utt2spk=ark:data/test/split18/1/utt2spk scp:data/test/split18/1/cmvn.scp scp:data/test/split18/1/feats.scp ark:- 
+zh1101M0001 要 三 箱 银桥 核桃 牛奶 多 加糖 
+LOG (nnet-latgen-faster[5.3.76~1-26df3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance zh1101M0001 is 0.357257 over 333 frames.
+zh1101M0002 要 三 箱 银桥 花生 牛奶 少 加糖 
+LOG (nnet-latgen-faster[5.3.76~1-26df3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance zh1101M0002 is 0.319912 over 362 frames.
+zh1101M0003 要 二 箱 银桥 红枣 牛奶 不 加糖 
+LOG (nnet-latgen-faster[5.3.76~1-26df3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance zh1101M0003 is 0.323505 over 381 frames.
+LOG (apply-cmvn[5.3.76~1-26df3]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 9 utterances, errors on 0
+zh1101M0004 要 五 箱 银桥 黑谷 牛奶 多 加糖 
+LOG (nnet-latgen-faster[5.3.76~1-26df3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance zh1101M0004 is 0.305272 over 400 frames.
+zh1101M0005 要 三 箱 银桥 核桃 牛奶 少 加糖 
+LOG (nnet-latgen-faster[5.3.76~1-26df3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance zh1101M0005 is 0.277373 over 429 frames.
+zh1101M0006 打开 灯 
+LOG (nnet-latgen-faster[5.3.76~1-26df3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance zh1101M0006 is 0.216143 over 190 frames.
+zh1101M0007 关闭 阀门 
+LOG (nnet-latgen-faster[5.3.76~1-26df3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance zh1101M0007 is 0.293546 over 247 frames.
+zh1101M0008 开启 窗帘 
+LOG (nnet-latgen-faster[5.3.76~1-26df3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance zh1101M0008 is 0.231229 over 218 frames.
+zh1101M0009 要 三 关掉 灯 
+LOG (nnet-latgen-faster[5.3.76~1-26df3]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:286) Log-like per frame for utterance zh1101M0009 is 0.0948055 over 180 frames.
+LOG (nnet-latgen-faster[5.3.76~1-26df3]:main():nnet-latgen-faster.cc:181) Time taken 1.53338s: real-time factor assuming 100 frames/sec is 0.0559628
+LOG (nnet-latgen-faster[5.3.76~1-26df3]:main():nnet-latgen-faster.cc:184) Done 9 utterances, failed for 0
+LOG (nnet-latgen-faster[5.3.76~1-26df3]:main():nnet-latgen-faster.cc:186) Overall log-likelihood per frame is 0.284737 over 2740 frames.
+# Accounting: time=2 threads=1
+# Ended (code 0) at Fri Mar 30 11:11:41 CST 2018, elapsed time 2 seconds

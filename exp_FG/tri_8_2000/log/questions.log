@@ -1,0 +1,2 @@
+cluster-phones exp_FG/tri_8_2000/treeacc data/lang_bigram/phones/sets.int exp_FG/tri_8_2000/questions.int 
+LOG (cluster-phones[5.3.76~1-26df3]:main():cluster-phones.cc:129) Wrote questions to exp_FG/tri_8_2000/questions.int

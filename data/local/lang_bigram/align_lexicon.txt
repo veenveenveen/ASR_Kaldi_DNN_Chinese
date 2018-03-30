@@ -1,0 +1,50 @@
+!SIL sil_S
+泵 b_B eng4_E
+闭 b_B i4_E
+不 b_B u4_E
+窗 ch_B uang1_E
+窗帘 ch_B uang1_I l_I ian2_E
+打 d_B a3_E
+打开 d_B a3_I k_I ai1_E
+灯 d_B eng1_E
+掉 d_B iao4_E
+多 d_B uo1_E
+二 er4_S
+阀 f_B a2_E
+阀门 f_B a2_I m_I en2_E
+谷 g_B u3_E
+关 g_B uan1_E
+关闭 g_B uan1_I b_I i4_E
+关掉 g_B uan1_I d_I iao4_E
+核 h_B e2_E
+核桃 h_B e2_I t_I ao2_E
+黑 h_B ei1_E
+黑谷 h_B ei1_I g_I u3_E
+红 h_B ong2_E
+红枣 h_B ong2_I z_I ao3_E
+花 h_B ua1_E
+花生 h_B ua1_I sh_I eng1_E
+加 j_B ia1_E
+加糖 j_B ia1_I t_I ang2_E
+开 k_B ai1_E
+开启 k_B ai1_I q_I i3_E
+帘 l_B ian2_E
+门 m_B en2_E
+奶 n_B ai3_E
+牛 n_B iu2_E
+牛奶 n_B iu2_I n_I ai3_E
+启 q_B i3_E
+桥 q_B iao2_E
+三 s_B an1_E
+少 sh_B ao3_E
+生 sh_B eng1_E
+四 si4_S
+糖 t_B ang2_E
+五 wu3_S
+箱 x_B iang1_E
+要 y_B ao4_E
+银 y_B in2_E
+银桥 y_B in2_I q_I iao2_E
+一 yi1_S
+枣 z_B ao3_E
+<eps> sil

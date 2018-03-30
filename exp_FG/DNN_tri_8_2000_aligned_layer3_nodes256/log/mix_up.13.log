@@ -1,0 +1,10 @@
+# nnet-am-mixup --min-count=10 --num-mixtures=5000 exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/14.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/14.mdl 
+# Started at Fri Mar 30 11:09:08 CST 2018
+#
+nnet-am-mixup --min-count=10 --num-mixtures=5000 exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/14.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/14.mdl 
+LOG (nnet-am-mixup[5.3.76~1-26df3]:GiveNnetCorrectTopology():mixup-nnet.cc:46) Adding SumGroupComponent to neural net.
+WARNING (nnet-am-mixup[5.3.76~1-26df3]:GetSplitTargets():model-common.cc:134) Could not split up to 5000 due to min-count = 10 (or no counts at all)
+LOG (nnet-am-mixup[5.3.76~1-26df3]:MixUp():mixup-nnet.cc:214) Mixed up from dimension of 368 to 516 in the softmax layer.
+LOG (nnet-am-mixup[5.3.76~1-26df3]:main():nnet-am-mixup.cc:74) Mixed up neural net from exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/14.mdl and wrote it to exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/14.mdl
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 30 11:09:08 CST 2018, elapsed time 0 seconds

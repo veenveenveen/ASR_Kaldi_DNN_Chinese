@@ -1,0 +1,7 @@
+# nnet-shuffle-egs --srand=$[13+(18*0)] ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/egs_tmp.13.0.ark ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/egs.13.0.ark 
+# Started at Fri Mar 30 11:05:15 CST 2018
+#
+nnet-shuffle-egs --srand=13 ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/egs_tmp.13.0.ark ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/egs.13.0.ark 
+LOG (nnet-shuffle-egs[5.3.76~1-26df3]:main():nnet-shuffle-egs.cc:102) Shuffled order of 3959 neural-network training examples 
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 30 11:05:15 CST 2018, elapsed time 0 seconds

@@ -1,0 +1,69 @@
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp_FG/make_mfcc/train/wav_train.10.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/himin/Desktop/kaldi/egs/XiaDan/mfcc/raw_mfcc_train.10.ark,/home/himin/Desktop/kaldi/egs/XiaDan/mfcc/raw_mfcc_train.10.scp 
+# Started at Fri Mar 30 10:59:05 CST 2018
+#
+copy-feats --compress=true ark:- ark,scp:/home/himin/Desktop/kaldi/egs/XiaDan/mfcc/raw_mfcc_train.10.ark,/home/himin/Desktop/kaldi/egs/XiaDan/mfcc/raw_mfcc_train.10.scp 
+compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp_FG/make_mfcc/train/wav_train.10.scp ark:- 
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0008
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0009
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0010
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0011
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0012
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0013
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0014
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0015
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0016
+LOG (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:172) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0017
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0018
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0019
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0020
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0021
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0022
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0023
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0024
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0025
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0026
+LOG (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:172) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0027
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0028
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0029
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0030
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1117M0031
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0001
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0002
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0003
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0004
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0005
+LOG (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:172) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0006
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0007
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0008
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0009
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0010
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0011
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0012
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0013
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0014
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0015
+LOG (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:172) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0016
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0017
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0018
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0019
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0020
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0021
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0022
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0023
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0024
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0025
+LOG (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:172) Processed 50 utterances
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0026
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0027
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0028
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0029
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0030
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1118M0031
+LOG (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:176)  Done 55 out of 55 utterances.
+LOG (copy-feats[5.3.76~1-26df3]:main():copy-feats.cc:143) Copied 55 feature matrices.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Fri Mar 30 10:59:06 CST 2018, elapsed time 1 seconds

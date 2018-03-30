@@ -1,0 +1,3 @@
+gmm-mixup --mix-up=2000 exp_FG/tri_8_2000/1.mdl exp_FG/tri_8_2000/1.occs exp_FG/tri_8_2000/1.mdl 
+LOG (gmm-mixup[5.3.76~1-26df3]:SplitByCount():am-diag-gmm.cc:116) Split 368 states with target = 2000, power = 0.2, perturb_factor = 0.01 and min_count = 20, split #Gauss from 368 to 2000
+LOG (gmm-mixup[5.3.76~1-26df3]:main():gmm-mixup.cc:103) Written model to exp_FG/tri_8_2000/1.mdl

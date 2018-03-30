@@ -1,0 +1,27 @@
+# compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp_FG/make_mfcc/test/wav_test.2.scp ark:- | copy-feats --compress=true ark:- ark,scp:/home/himin/Desktop/kaldi/egs/XiaDan/mfcc/raw_mfcc_test.2.ark,/home/himin/Desktop/kaldi/egs/XiaDan/mfcc/raw_mfcc_test.2.scp 
+# Started at Fri Mar 30 10:59:07 CST 2018
+#
+copy-feats --compress=true ark:- ark,scp:/home/himin/Desktop/kaldi/egs/XiaDan/mfcc/raw_mfcc_test.2.ark,/home/himin/Desktop/kaldi/egs/XiaDan/mfcc/raw_mfcc_test.2.scp 
+compute-mfcc-feats --verbose=2 --config=conf/mfcc.conf scp,p:exp_FG/make_mfcc/test/wav_test.2.scp ark:- 
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1102M0009
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1103M0001
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1103M0002
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1103M0003
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1103M0004
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1103M0005
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1103M0006
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1103M0007
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1103M0008
+LOG (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:172) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1103M0009
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1104M0001
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1104M0002
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1104M0003
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1104M0004
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1104M0005
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1104M0006
+VLOG[2] (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:173) Processed features for key zh1104M0007
+LOG (compute-mfcc-feats[5.3.76~1-26df3]:main():compute-mfcc-feats.cc:176)  Done 17 out of 17 utterances.
+LOG (copy-feats[5.3.76~1-26df3]:main():copy-feats.cc:143) Copied 17 feature matrices.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Fri Mar 30 10:59:08 CST 2018, elapsed time 1 seconds

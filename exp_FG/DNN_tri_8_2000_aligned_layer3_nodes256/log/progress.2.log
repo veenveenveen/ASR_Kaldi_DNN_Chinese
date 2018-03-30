@@ -1,0 +1,7 @@
+# nnet-show-progress --use-gpu=no exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/1.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/2.mdl ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/train_diagnostic.egs 
+# Started at Fri Mar 30 11:05:38 CST 2018
+#
+nnet-show-progress --use-gpu=no exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/1.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/2.mdl ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/train_diagnostic.egs 
+WARNING (nnet-show-progress[5.3.76~1-26df3]:main():nnet-show-progress.cc:88) Parameter-dim mismatch, cannot show progress.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 30 11:05:38 CST 2018, elapsed time 0 seconds

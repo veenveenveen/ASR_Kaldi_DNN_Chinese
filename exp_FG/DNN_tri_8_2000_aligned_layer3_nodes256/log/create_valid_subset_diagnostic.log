@@ -1,0 +1,7 @@
+# nnet-subset-egs --n=4000 ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/valid_all.egs ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/valid_diagnostic.egs 
+# Started at Fri Mar 30 11:05:09 CST 2018
+#
+nnet-subset-egs --n=4000 ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/valid_all.egs ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/valid_diagnostic.egs 
+LOG (nnet-subset-egs[5.3.76~1-26df3]:main():nnet-subset-egs.cc:92) Selected a subset of 4000 out of 84167 neural-network training examples 
+# Accounting: time=1 threads=1
+# Ended (code 0) at Fri Mar 30 11:05:10 CST 2018, elapsed time 1 seconds

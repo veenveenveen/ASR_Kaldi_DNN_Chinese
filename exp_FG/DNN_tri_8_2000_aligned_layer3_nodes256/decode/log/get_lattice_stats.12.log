@@ -1,0 +1,7 @@
+# ali-to-phones --write-lengths=true exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/decode/../final.mdl "ark:gunzip -c exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/decode/ali_tmp.12.gz|" ark,t:- | sed -E "s/^[^ ]+ //" | awk 'BEGIN{FS=" ; "; OFS="\n";} {print "begin " $1; print "end " $NF; for (n=1;n<=NF;n++) print "all " $n; }' | sort | uniq -c | gzip -c > exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/decode/phone_stats.12.gz 
+# Started at Fri Mar 30 11:11:56 CST 2018
+#
+ali-to-phones --write-lengths=true exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/decode/../final.mdl 'ark:gunzip -c exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/decode/ali_tmp.12.gz|' ark,t:- 
+LOG (ali-to-phones[5.3.76~1-26df3]:main():ali-to-phones.cc:134) Done 9 utterances.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 30 11:11:56 CST 2018, elapsed time 0 seconds

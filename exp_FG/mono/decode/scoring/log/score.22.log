@@ -1,0 +1,5 @@
+# cat exp_FG/mono/decode/scoring/22.tra | utils/int2sym.pl -f 2- exp_FG/mono/graph/words.txt | sed s:\<UNK\>::g | compute-wer --text --mode=present ark:exp_FG/mono/decode/scoring/test_filt.txt ark,p:- >& exp_FG/mono/decode/wer_22 
+# Started at Fri Mar 30 11:01:47 CST 2018
+#
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 30 11:01:47 CST 2018, elapsed time 0 seconds

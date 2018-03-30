@@ -1,0 +1,15 @@
+# nnet-subset-egs --n=10000 ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/egs.12.0.ark ark:- | nnet-compute-from-egs "nnet-to-raw-nnet exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/final.mdl -|" ark:- ark:- | matrix-sum-rows ark:- ark:- | vector-sum ark:- exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/post.12.vec 
+# Started at Fri Mar 30 11:11:22 CST 2018
+#
+vector-sum ark:- exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/post.12.vec 
+matrix-sum-rows ark:- ark:- 
+nnet-compute-from-egs 'nnet-to-raw-nnet exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/final.mdl -|' ark:- ark:- 
+nnet-subset-egs --n=10000 ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/egs/egs.12.0.ark ark:- 
+nnet-to-raw-nnet exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/final.mdl - 
+LOG (nnet-to-raw-nnet[5.3.76~1-26df3]:main():nnet-to-raw-nnet.cc:76) Read neural net from exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/final.mdl and wrote raw neural net to -
+LOG (nnet-subset-egs[5.3.76~1-26df3]:main():nnet-subset-egs.cc:92) Selected a subset of 3960 out of 3960 neural-network training examples 
+LOG (nnet-compute-from-egs[5.3.76~1-26df3]:main():nnet-compute-from-egs.cc:90) Processed 3960 examples.
+LOG (matrix-sum-rows[5.3.76~1-26df3]:main():matrix-sum-rows.cc:67) Summed rows 3960 matrices, 3960 rows in total.
+LOG (vector-sum[5.3.76~1-26df3]:TypeTwoUsage():vector-sum.cc:143) Summed 3960 vectors, 0 with errors; wrote sum to exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/post.12.vec
+# Accounting: time=4 threads=1
+# Ended (code 0) at Fri Mar 30 11:11:26 CST 2018, elapsed time 4 seconds

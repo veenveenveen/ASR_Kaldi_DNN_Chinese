@@ -1,0 +1,9 @@
+# nnet-adjust-priors exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/final.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/post.vec exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/final.mdl 
+# Started at Fri Mar 30 11:11:37 CST 2018
+#
+nnet-adjust-priors exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/final.mdl exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/post.vec exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/final.mdl 
+LOG (nnet-adjust-priors[5.3.76~1-26df3]:PrintPriorDiagnostics():nnet-adjust-priors.cc:58) Adjusting priors: largest absolute difference was for pdf 159, 0.00771545 -> 0.014171
+LOG (nnet-adjust-priors[5.3.76~1-26df3]:PrintPriorDiagnostics():nnet-adjust-priors.cc:61) Adjusting priors: K-L divergence from old to new is 0.0491533
+LOG (nnet-adjust-priors[5.3.76~1-26df3]:main():nnet-adjust-priors.cc:137) Modified priors of neural network model and wrote it to exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/final.mdl
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Mar 30 11:11:37 CST 2018, elapsed time 0 seconds

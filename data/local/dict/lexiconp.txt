@@ -1,0 +1,49 @@
+!SIL 1.0	sil
+泵 1.0	b eng4
+闭 1.0	b i4
+不 1.0	b u4
+窗 1.0	ch uang1
+窗帘 1.0	ch uang1 l ian2
+打 1.0	d a3
+打开 1.0	d a3 k ai1
+灯 1.0	d eng1
+掉 1.0	d iao4
+多 1.0	d uo1
+二 1.0	er4
+阀 1.0	f a2
+阀门 1.0	f a2 m en2
+谷 1.0	g u3
+关 1.0	g uan1
+关闭 1.0	g uan1 b i4
+关掉 1.0	g uan1 d iao4
+核 1.0	h e2
+核桃 1.0	h e2 t ao2
+黑 1.0	h ei1
+黑谷 1.0	h ei1 g u3
+红 1.0	h ong2
+红枣 1.0	h ong2 z ao3
+花 1.0	h ua1
+花生 1.0	h ua1 sh eng1
+加 1.0	j ia1
+加糖 1.0	j ia1 t ang2
+开 1.0	k ai1
+开启 1.0	k ai1 q i3
+帘 1.0	l ian2
+门 1.0	m en2
+奶 1.0	n ai3
+牛 1.0	n iu2
+牛奶 1.0	n iu2 n ai3
+启 1.0	q i3
+桥 1.0	q iao2
+三 1.0	s an1
+少 1.0	sh ao3
+生 1.0	sh eng1
+四 1.0	si4
+糖 1.0	t ang2
+五 1.0	wu3
+箱 1.0	x iang1
+要 1.0	y ao4
+银 1.0	y in2
+银桥 1.0	y in2 q iao2
+一 1.0	yi1
+枣 1.0	z ao3

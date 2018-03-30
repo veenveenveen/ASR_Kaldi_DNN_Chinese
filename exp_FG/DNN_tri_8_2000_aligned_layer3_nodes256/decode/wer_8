@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:exp_FG/DNN_tri_8_2000_aligned_layer3_nodes256/decode/scoring/test_filt.txt ark,p:- 
+%WER 12.96 [ 112 / 864, 17 ins, 0 del, 95 sub ]
+%SER 63.58 [ 103 / 162 ]
+Scored 162 sentences, 0 not present in hyp.
